@@ -1,0 +1,489 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ContentProperties DeviceType="Desktop">
+  <Component type="ScriptImage" id="Background" x="0.0" y="0.0" width="1000.0"
+             height="600.0" fileName="{PROJECT_FOLDER}Background6.png"/>
+  <Component type="ScriptSlider" id="HPFiltknb" x="84.0" y="83.0" filmstripImage="{PROJECT_FOLDER}fxknobwht79.png"
+             numStrips="79.0" width="36.0" height="36.0" scaleFactor="0.4000000059604645"
+             mode="Frequency" min="20.0" max="20000.0" stepSize="1.0" suffix=" Hz"
+             middlePosition="1500.0" processorId="EQ HP" parameterId="Freq"
+             defaultValue="50.0"/>
+  <Component type="ScriptSlider" id="LPFiltknb" x="132.0" y="83.0" filmstripImage="{PROJECT_FOLDER}fxknobwht79.png"
+             numStrips="79.0" width="36.0" height="36.0" scaleFactor="0.4000000059604645"
+             mode="Frequency" min="20.0" max="20000.0" stepSize="1.0" suffix=" Hz"
+             middlePosition="1500.0" processorId="EQ LP" parameterId="Freq"
+             defaultValue="17000.0"/>
+  <Component type="ScriptSlider" id="FeelFreqknb" x="193.0" y="83.0" filmstripImage="{PROJECT_FOLDER}fxknobwht79.png"
+             numStrips="79.0" width="36.0" height="36.0" scaleFactor="0.4000000059604645"
+             mode="Frequency" min="20.0" max="20000.0" stepSize="1.0" suffix=" Hz"
+             middlePosition="1500.0" processorId="Feel" parameterId="Freq"
+             defaultValue="500.0"/>
+  <Component type="ScriptSlider" id="FeelGainknb" x="233.0" y="83.0" filmstripImage="{PROJECT_FOLDER}fxknobwht79.png"
+             numStrips="79.0" width="36.0" height="36.0" scaleFactor="0.4000000059604645"
+             mode="Decibel" min="-30.0" max="30.0" stepSize="0.1000000014901161"
+             suffix=" dB" middlePosition="0.0" processorId="Feel" parameterId="Gain"/>
+  <Component type="ScriptSlider" id="FeelQknb" x="271.0" y="83.0" filmstripImage="{PROJECT_FOLDER}fxknobwht79.png"
+             numStrips="79.0" width="36.0" height="36.0" scaleFactor="0.4000000059604645"
+             middlePosition="4.0" processorId="Feel" parameterId="Q" max="8.0"
+             min="0.1000000014901161" defaultValue="0.699999988079071"/>
+  <Component type="ScriptSlider" id="WavesFreqknb" x="196.0" y="212.0" filmstripImage="{PROJECT_FOLDER}fxknobwht79.png"
+             numStrips="79.0" width="36.0" height="36.0" scaleFactor="0.4000000059604645"
+             mode="TempoSync" min="1.0" stepSize="1.0" middlePosition="20.0"
+             processorId="Waves" parameterId="Frequency" defaultValue="8.0"
+             max="40.0" showValuePopup="Below"/>
+  <Component type="ScriptSlider" id="WavesSmoothknb" x="245.0" y="212.0" filmstripImage="{PROJECT_FOLDER}fxknobwht79.png"
+             numStrips="79.0" width="36.0" height="36.0" scaleFactor="0.4000000059604645"
+             mode="Time" max="1000.0" middlePosition="500.0" processorId="Waves"
+             parameterId="SmoothingTime" defaultValue="5.0"/>
+  <Component type="ScriptSlider" id="WavesFadeInknb" x="220.0" y="242.0" filmstripImage="{PROJECT_FOLDER}fxknobwht79.png"
+             numStrips="79.0" width="36.0" height="36.0" scaleFactor="0.4000000059604645"
+             middlePosition="1500.0" processorId="Waves" parameterId="FadeIn"
+             max="3000.0" defaultValue="1000.0" mode="Time"/>
+  <Component type="ScriptSlider" id="WavesIntenseknb" x="270.0" y="242.0"
+             filmstripImage="{PROJECT_FOLDER}fxknobwht79.png" numStrips="79.0"
+             width="36.0" height="36.0" scaleFactor="0.4000000059604645" middlePosition="0.5"
+             processorId="Waves" parameterId="Intensity"/>
+  <Component type="ScriptSlider" id="ReverbLPknb" x="772.0" y="83.0" filmstripImage="{PROJECT_FOLDER}fxknobwht79.png"
+             numStrips="79.0" width="36.0" height="36.0" scaleFactor="0.4000000059604645"
+             mode="Frequency" min="20.0" max="20000.0" stepSize="1.0" suffix=" Hz"
+             middlePosition="1500.0" processorId="Reverb LP" parameterId="Freq"
+             defaultValue="20000.0"/>
+  <Component type="ScriptSlider" id="ReverbHPknb" x="699.0" y="83.0" filmstripImage="{PROJECT_FOLDER}fxknobwht79.png"
+             numStrips="79.0" width="36.0" height="36.0" scaleFactor="0.4000000059604645"
+             mode="Frequency" max="20000.0" stepSize="1.0" middlePosition="1500.0"
+             processorId="Reverb HP" parameterId="Freq" min="20.0" defaultValue="20.0"/>
+  <Component type="ScriptSlider" id="ReverbWetknb" x="736.0" y="130.0" filmstripImage="{PROJECT_FOLDER}fxknobwht79.png"
+             numStrips="79.0" width="36.0" height="36.0" scaleFactor="0.4000000059604645"
+             middlePosition="0.5" processorId="Reverb" parameterId="WetLevel"
+             mode="NormalizedPercentage" suffix="%"/>
+  <Component type="ScriptSlider" id="ReverbStereoknb" x="812.0" y="130.0"
+             filmstripImage="{PROJECT_FOLDER}fxknobwht79.png" numStrips="79.0"
+             width="36.0" height="36.0" scaleFactor="0.4000000059604645" mode="NormalizedPercentage"
+             middlePosition="0.5" processorId="Reverb" parameterId="Width"
+             defaultValue="0.5" suffix="%"/>
+  <Component type="ScriptSlider" id="ReverbRoomknb" x="891.0" y="130.0" filmstripImage="{PROJECT_FOLDER}fxknobwht79.png"
+             numStrips="79.0" width="36.0" height="36.0" scaleFactor="0.4000000059604645"
+             middlePosition="0.5" processorId="Reverb" parameterId="RoomSize"
+             defaultValue="0.6000000238418579" mode="NormalizedPercentage"
+             suffix="%"/>
+  <Component type="ScriptSlider" id="ReverbDampknb" x="848.0" y="83.0" filmstripImage="{PROJECT_FOLDER}fxknobwht79.png"
+             numStrips="79.0" width="36.0" height="36.0" scaleFactor="0.4000000059604645"
+             mode="NormalizedPercentage" middlePosition="0.5" processorId="Reverb"
+             parameterId="Damping" defaultValue="0.4000000059604645" suffix="%"/>
+  <Component type="ScriptSlider" id="FeelFreqknb2" x="729.0" y="203.0" filmstripImage="{PROJECT_FOLDER}fxknobwht79.png"
+             numStrips="79.0" width="36.0" height="36.0" scaleFactor="0.4000000059604645"
+             mode="Frequency" min="20.0" max="20000.0" stepSize="1.0" suffix=" Hz"
+             middlePosition="1500.0" processorId="Delay HP" parameterId="Freq"
+             defaultValue="20.0"/>
+  <Component type="ScriptSlider" id="FeelGainknb2" x="827.0" y="248.0" filmstripImage="{PROJECT_FOLDER}fxknobwht79.png"
+             numStrips="79.0" width="36.0" height="36.0" scaleFactor="0.4000000059604645"
+             min="1.0" max="40.0" stepSize="1.0" middlePosition="20.0" processorId="Delay"
+             parameterId="DelayTimeLeft" defaultValue="8.0" showValuePopup="Left"
+             mode="TempoSync"/>
+  <Component type="ScriptSlider" id="FeelQknb2" x="795.0" y="203.0" filmstripImage="{PROJECT_FOLDER}fxknobwht79.png"
+             numStrips="79.0" width="36.0" height="36.0" scaleFactor="0.4000000059604645"
+             middlePosition="1500.0" processorId="Delay LP" parameterId="Freq"
+             max="20000.0" min="20.0" defaultValue="20000.0" mode="Frequency"
+             stepSize="1.0"/>
+  <Component type="ScriptSlider" id="WavesFreqknb2" x="699.0" y="248.0" filmstripImage="{PROJECT_FOLDER}fxknobwht79.png"
+             numStrips="79.0" width="36.0" height="36.0" scaleFactor="0.4000000059604645"
+             mode="NormalizedPercentage" middlePosition="0.5" processorId="Delay"
+             parameterId="FeedbackLeft" defaultValue="0.300000011920929" suffix="%"/>
+  <Component type="ScriptSlider" id="WavesFadeInknb2" x="891.0" y="248.0"
+             filmstripImage="{PROJECT_FOLDER}fxknobwht79.png" numStrips="79.0"
+             width="36.0" height="36.0" scaleFactor="0.4000000059604645" middlePosition="20.0"
+             processorId="Delay" parameterId="DelayTimeRight" max="40.0" defaultValue="8.0"
+             stepSize="1.0" showValuePopup="Right" mode="TempoSync"/>
+  <Component type="ScriptSlider" id="DelayMixknb" x="861.0" y="203.0" filmstripImage="{PROJECT_FOLDER}fxknobwht79.png"
+             numStrips="79.0" width="36.0" height="36.0" scaleFactor="0.4000000059604645"
+             mode="NormalizedPercentage" middlePosition="0.5" processorId="Delay"
+             parameterId="Mix" suffix="%"/>
+  <Component type="ScriptSlider" id="WavesIntenseknb2" x="763.0" y="248.0"
+             filmstripImage="{PROJECT_FOLDER}fxknobwht79.png" numStrips="79.0"
+             width="36.0" height="36.0" scaleFactor="0.4000000059604645" middlePosition="0.5"
+             processorId="Delay" parameterId="FeedbackRight" mode="NormalizedPercentage"
+             defaultValue="0.300000011920929" suffix="%"/>
+  <Component type="ScriptSlider" id="FeelFreqknb1" x="69.0" y="203.0" filmstripImage="{PROJECT_FOLDER}fxknobwht79.png"
+             numStrips="79.0" width="36.0" height="36.0" scaleFactor="0.4000000059604645"
+             mode="Frequency" min="20.0" max="20000.0" stepSize="1.0" suffix=" Hz"
+             middlePosition="1500.0" processorId="Artifacts" parameterId="Freq"
+             defaultValue="6000.0"/>
+  <Component type="ScriptSlider" id="FeelGainknb1" x="109.0" y="203.0" filmstripImage="{PROJECT_FOLDER}fxknobwht79.png"
+             numStrips="79.0" width="36.0" height="36.0" scaleFactor="0.4000000059604645"
+             mode="Decibel" min="-30.0" max="30.0" stepSize="0.1000000014901161"
+             suffix=" dB" middlePosition="0.0" processorId="Artifacts" parameterId="Gain"/>
+  <Component type="ScriptSlider" id="FeelQknb1" x="147.0" y="203.0" filmstripImage="{PROJECT_FOLDER}fxknobwht79.png"
+             numStrips="79.0" width="36.0" height="36.0" scaleFactor="0.4000000059604645"
+             middlePosition="4.0" processorId="Artifacts" parameterId="Q"
+             max="8.0" min="0.1000000014901161" defaultValue="1.5"/>
+  <Component type="ScriptLabel" id="PRESETS" x="335.0" y="68.0" width="100.0"
+             fontStyle="Bold" editable="0" fontSize="18.0"/>
+  <Component type="ScriptFloatingTile" id="PresetBrowser" x="327.0" y="60.0"
+             width="350.0" height="240.0" ContentType="PresetBrowser" bgColour="0"
+             itemColour="4294967295" itemColour2="4294967295" Data="{&#13;&#10;  &quot;ShowSaveButton&quot;: true,&#13;&#10;  &quot;ShowFolderButton&quot;: false,&#13;&#10;  &quot;ShowNotes&quot;: false,&#13;&#10;  &quot;ShowEditButtons&quot;: true,&#13;&#10;  &quot;ShowFavoriteIcon&quot;: false,&#13;&#10;  &quot;NumColumns&quot;: 1&#13;&#10;}"
+             Font="Arial"/>
+  <Component type="ScriptPanel" id="Panel1" x="850.0" y="3.0" bgColour="16711680"
+             textColour="0" width="143.0" height="31.0" itemColour="1962934272"
+             itemColour2="1962934272"/>
+  <Component type="ScriptButton" id="Guitar1btn" x="38.0" y="325.0" filmstripImage="{PROJECT_FOLDER}liteswitch.png"
+             width="33.0" height="33.0" scaleFactor="0.5" processorId="Guitar1"
+             parameterId="Enabled" defaultValue="1.0"/>
+  <Component type="ScriptSlider" id="Guitar1Attackknb" x="43.0" y="420.0"
+             filmstripImage="{PROJECT_FOLDER}fxknobwht79.png" numStrips="79.0"
+             mode="Time" max="20000.0" stepSize="1.0" suffix=" ms" middlePosition="1000.0"
+             width="36.0" height="36.0" scaleFactor="0.4000000059604645" processorId="DefaultEnvelope1"
+             parameterId="Attack"/>
+  <Component type="ScriptSlider" id="Guitar1Releaseknb" x="129.0" y="420.0"
+             filmstripImage="{PROJECT_FOLDER}fxknobwht79.png" numStrips="79.0"
+             mode="Time" max="20000.0" stepSize="1.0" suffix=" ms" middlePosition="1000.0"
+             width="36.0" height="36.0" scaleFactor="0.4000000059604645" processorId="DefaultEnvelope1"
+             parameterId="Release" defaultValue="5000.0"/>
+  <Component type="ScriptLabel" id="Gain" x="64.0" y="456.0" width="80.0"
+             height="20.0" text="GAIN" fontStyle="Bold" fontSize="10.0" editable="0"/>
+  <Component type="ScriptSlider" id="Guitar1Gainknb" x="81.0" y="414.0" middlePosition="-18.0"
+             stepSize="0.1000000014901161" min="-100.0" max="20.0" suffix=" dB"
+             filmstripImage="{PROJECT_FOLDER}olddialinvert31.png" numStrips="31.0"
+             scaleFactor="0.5" width="47.0" height="47.0" processorId="G1 GAIN"
+             parameterId="Gain" mode="Decibel" defaultValue="-10.0"/>
+  <Component type="ScriptLabel" id="Pan" x="65.0" y="488.0" width="80.0" height="20.0"
+             text="PAN" fontStyle="Bold" fontSize="10.0" editable="0"/>
+  <Component type="ScriptSlider" id="Guitar1Pansld" x="54.0" y="469.0" filmstripImage="{PROJECT_FOLDER}panslider101-3.png"
+             numStrips="101.0" height="28.0" processorId="G1 GAIN" parameterId="Balance"
+             mode="Pan" min="-100.0" max="100.0" suffix="L" middlePosition="0.0"
+             width="100.0" dragDirection="Horizontal" stepSize="0.1000000014901161"
+             scaleFactor="0.800000011920929"/>
+  <Component type="ScriptButton" id="Guitar2btn" x="216.0" y="325.0" filmstripImage="{PROJECT_FOLDER}liteswitch.png"
+             width="33.0" height="33.0" scaleFactor="0.5" processorId="Guitar2"
+             parameterId="Enabled" defaultValue="1.0"/>
+  <Component type="ScriptButton" id="Guitar3btn" x="829.0" y="325.0" filmstripImage="{PROJECT_FOLDER}liteswitch.png"
+             width="33.0" height="33.0" scaleFactor="0.5" processorId="Guitar4"
+             parameterId="Enabled" defaultValue="1.0"/>
+  <Component type="ScriptButton" id="Guitar4btn" x="653.0" y="325.0" filmstripImage="{PROJECT_FOLDER}liteswitch.png"
+             width="33.0" height="33.0" scaleFactor="0.5" processorId="Guitar3"
+             parameterId="Enabled" defaultValue="1.0"/>
+  <Component type="ScriptSlider" id="MasterGainknb" x="456.0" y="482.0" middlePosition="-18.0"
+             stepSize="0.1000000014901161" min="-100.0" max="20.0" suffix=" dB"
+             filmstripImage="{PROJECT_FOLDER}gainknob101.png" numStrips="101.0"
+             mode="Decibel" width="91.0" height="91.0" processorId="Main Gain"
+             parameterId="Gain" defaultValue="-12.0"/>
+  <Component type="ScriptLabel" id="FretNoise" x="92.0" y="511.0" width="80.0"
+             height="20.0" text="FRET NOISE" fontStyle="Bold" fontSize="10.0"
+             editable="0"/>
+  <Component type="ScriptButton" id="FXFretbutt" x="77.0" y="504.0" filmstripImage="{PROJECT_FOLDER}liteswitch.png"
+             width="33.0" height="33.0" scaleFactor="0.5" processorId="FretNoises"
+             parameterId="Enabled" defaultValue="1.0"/>
+  <Component type="ScriptSlider" id="FXFretknb" x="101.0" y="531.0" filmstripImage="{PROJECT_FOLDER}olddial31.png"
+             numStrips="31.0" width="62.0" height="62.0" scaleFactor="0.6499999761581421"
+             processorId="Simple Gain5" parameterId="Gain" mode="Decibel"
+             min="-100.0" max="0.0" stepSize="0.1000000014901161" suffix=" dB"
+             middlePosition="-18.0" defaultValue="-42.0"/>
+  <Component type="ScriptLabel" id="Width" x="210.0" y="511.0" width="80.0"
+             height="20.0" text="WIDTH" fontStyle="Bold" fontSize="10.0" editable="0"/>
+  <Component type="ScriptButton" id="FXWidthbutt" x="207.0" y="504.0" filmstripImage="{PROJECT_FOLDER}liteswitch.png"
+             width="33.0" height="33.0" scaleFactor="0.5" processorId="Width"
+             parameterId="Enabled" defaultValue="1.0"/>
+  <Component type="ScriptSlider" id="FXWidthknb" x="219.0" y="531.0" filmstripImage="{PROJECT_FOLDER}olddial31.png"
+             numStrips="31.0" width="62.0" height="62.0" scaleFactor="0.6499999761581421"
+             max="200.0" stepSize="0.1000000014901161" middlePosition="100.0"
+             defaultValue="100.0" mode="Discrete" processorId="Width" parameterId="Width"/>
+  <Component type="ScriptLabel" id="Feel" x="329.0" y="511.0" width="80.0"
+             height="20.0" text="FEEL" fontStyle="Bold" fontSize="10.0" editable="0"/>
+  <Component type="ScriptButton" id="FXFeelbutt" x="330.0" y="504.0" filmstripImage="{PROJECT_FOLDER}liteswitch.png"
+             width="33.0" height="33.0" scaleFactor="0.5" processorId="Feel"
+             parameterId="Enabled" defaultValue="1.0"/>
+  <Component type="ScriptSlider" id="FXFeelknb" x="338.0" y="531.0" filmstripImage="{PROJECT_FOLDER}olddial31.png"
+             numStrips="31.0" width="62.0" height="62.0" scaleFactor="0.6499999761581421"
+             processorId="" mode="Decibel" min="-30.0" max="30.0" stepSize="0.1000000014901161"
+             suffix=" dB" middlePosition="0.0" saveInPreset="0" linkedTo="FeelGainknb"/>
+  <Component type="ScriptLabel" id="Waves" x="591.0" y="511.0" width="80.0"
+             height="20.0" text="WAVES" fontStyle="Bold" fontSize="10.0" editable="0"/>
+  <Component type="ScriptButton" id="FXWavesbutt" x="586.0" y="504.0" filmstripImage="{PROJECT_FOLDER}liteswitch.png"
+             width="33.0" height="33.0" scaleFactor="0.5" processorId="Waves"
+             parameterId="Enabled" defaultValue="1.0"/>
+  <Component type="ScriptSlider" id="FXWavesknb" x="601.0" y="531.0" filmstripImage="{PROJECT_FOLDER}olddial31.png"
+             numStrips="31.0" width="62.0" height="62.0" scaleFactor="0.6499999761581421"
+             processorId="" middlePosition="0.5" saveInPreset="0" linkedTo="WavesIntenseknb"/>
+  <Component type="ScriptLabel" id="Reverb" x="710.0" y="511.0" width="80.0"
+             height="20.0" text="REVERB" fontStyle="Bold" fontSize="10.0"
+             editable="0"/>
+  <Component type="ScriptButton" id="FXReverbbutt" x="703.0" y="504.0" filmstripImage="{PROJECT_FOLDER}liteswitch.png"
+             width="33.0" height="33.0" scaleFactor="0.5" processorId="Reverb"
+             parameterId="Enabled" defaultValue="1.0"/>
+  <Component type="ScriptSlider" id="FXReverbknb" x="719.0" y="531.0" filmstripImage="{PROJECT_FOLDER}olddial31.png"
+             numStrips="31.0" width="62.0" height="62.0" scaleFactor="0.6499999761581421"
+             processorId="" mode="NormalizedPercentage" suffix="%" middlePosition="0.5"
+             saveInPreset="0" linkedTo="ReverbWetknb"/>
+  <Component type="ScriptLabel" id="Delay" x="829.0" y="511.0" width="80.0"
+             height="20.0" text="DELAY" fontStyle="Bold" fontSize="10.0" editable="0"/>
+  <Component type="ScriptButton" id="FXDelaybutt" x="826.0" y="504.0" filmstripImage="{PROJECT_FOLDER}liteswitch.png"
+             width="33.0" height="33.0" scaleFactor="0.5" processorId="Delay1"
+             parameterId="Enabled" defaultValue="1.0"/>
+  <Component type="ScriptSlider" id="FXDelayknb" x="838.0" y="531.0" filmstripImage="{PROJECT_FOLDER}olddial31.png"
+             numStrips="31.0" width="62.0" height="62.0" scaleFactor="0.6499999761581421"
+             processorId="" mode="NormalizedPercentage" suffix="%" middlePosition="0.5"
+             saveInPreset="0" linkedTo="DelayMixknb"/>
+  <Component type="ScriptLabel" id="Feel1" x="189.0" y="61.0" width="124.0"
+             height="20.0" text="FEEL" fontStyle="Bold" fontSize="12.0" editable="0"/>
+  <Component type="ScriptLabel" id="Waves1" x="189.0" y="181.0" width="124.0"
+             height="20.0" text="WAVES" fontStyle="Bold" fontSize="12.0" editable="0"/>
+  <Component type="ScriptLabel" id="Reverb1" x="687.0" y="61.0" width="250.0"
+             height="20.0" text="REVERB" fontStyle="Bold" fontSize="12.0"
+             editable="0"/>
+  <Component type="ScriptLabel" id="Delay1" x="688.0" y="181.0" width="250.0"
+             height="20.0" text="DELAY" fontStyle="Bold" fontSize="12.0" editable="0"/>
+  <Component type="ScriptLabel" id="LP Filter" x="63.0" y="61.0" width="125.0"
+             height="22.0" fontStyle="Bold" fontSize="12.0" editable="0" text="FILTER"/>
+  <Component type="ScriptFloatingTile" id="EQHPtile" x="76.0" y="109.0" ContentType="FilterDisplay"
+             bgColour="3355443" itemColour="4294967295" itemColour2="2147483647"
+             Data="{&#13;&#10;  &quot;ProcessorId&quot;: &quot;EQ HP&quot;,&#13;&#10;  &quot;Index&quot;: -1&#13;&#10;}"
+             width="50.0" height="60.0"/>
+  <Component type="ScriptFloatingTile" id="EQLPtile" x="126.0" y="109.0" ContentType="FilterDisplay"
+             bgColour="3355443" itemColour="4294967295" itemColour2="2147483647"
+             Data="{&#13;&#10;  &quot;ProcessorId&quot;: &quot;EQ LP&quot;,&#13;&#10;  &quot;Index&quot;: -1&#13;&#10;}"
+             width="50.0" height="60.0"/>
+  <Component type="ScriptLabel" id="HP Filter" x="87.0" y="181.0" width="80.0"
+             height="20.0" fontStyle="Bold" fontSize="12.0" editable="0" text="ARTIFACTS"/>
+  <Component type="ScriptLabel" id="FREQ" x="82.0" y="110.0" width="40.0"
+             height="20.0" fontStyle="Bold" fontSize="10.0" editable="0" text="HP"/>
+  <Component type="ScriptLabel" id="FREQ1" x="130.0" y="110.0" width="40.0"
+             height="20.0" fontStyle="Bold" fontSize="10.0" editable="0" text="LP"/>
+  <Component type="ScriptLabel" id="QEQ2" x="269.0" y="110.0" width="40.0"
+             height="20.0" fontStyle="Bold" fontSize="10.0" editable="0" text="Q"/>
+  <Component type="ScriptLabel" id="GainEQ2" x="231.0" y="110.0" width="40.0"
+             height="20.0" fontStyle="Bold" fontSize="10.0" editable="0" text="G"/>
+  <Component type="ScriptLabel" id="FREQ2" x="191.0" y="110.0" width="40.0"
+             height="20.0" fontStyle="Bold" fontSize="10.0" editable="0" text="F"/>
+  <Component type="ScriptFloatingTile" id="EQHPtile1" x="200.0" y="129.0"
+             ContentType="FilterDisplay" bgColour="3355443" itemColour="4294967295"
+             itemColour2="2147483647" Data="{&#13;&#10;  &quot;ProcessorId&quot;: &quot;Feel&quot;,&#13;&#10;  &quot;Index&quot;: -1&#13;&#10;}"
+             width="100.0" height="20.0"/>
+  <Component type="ScriptLabel" id="FREQ3" x="194.0" y="202.0" width="40.0"
+             height="20.0" fontStyle="Bold" fontSize="10.0" editable="0" text="TIME"/>
+  <Component type="ScriptLabel" id="FREQ4" x="218.0" y="268.0" width="40.0"
+             height="20.0" fontStyle="Bold" fontSize="10.0" editable="0" text="FADE"/>
+  <Component type="ScriptLabel" id="FREQ5" x="243.0" y="202.0" width="40.0"
+             height="20.0" fontStyle="Bold" fontSize="10.0" editable="0" text="FLAT"/>
+  <Component type="ScriptLabel" id="FREQ6" x="268.0" y="268.0" width="40.0"
+             height="20.0" fontStyle="Bold" fontSize="10.0" editable="0" text="MIX"/>
+  <Component type="ScriptLabel" id="FREQ7" x="697.0" y="110.0" width="40.0"
+             height="20.0" fontStyle="Bold" fontSize="10.0" editable="0" text="HP"/>
+  <Component type="ScriptLabel" id="FREQ8" x="771.0" y="110.0" width="40.0"
+             height="20.0" fontStyle="Bold" fontSize="10.0" editable="0" text="LP"/>
+  <Component type="ScriptLabel" id="FREQ9" x="735.0" y="157.0" width="40.0"
+             height="20.0" fontStyle="Bold" fontSize="10.0" editable="0" text="WET"/>
+  <Component type="ScriptLabel" id="FREQ10" x="848.0" y="110.0" width="40.0"
+             height="20.0" fontStyle="Bold" fontSize="10.0" editable="0" text="DAMP"/>
+  <Component type="ScriptLabel" id="FREQ11" x="811.0" y="157.0" width="40.0"
+             height="20.0" fontStyle="Bold" fontSize="10.0" editable="0" text="WIDE"/>
+  <Component type="ScriptLabel" id="FREQ12" x="891.0" y="157.0" width="40.0"
+             height="20.0" fontStyle="Bold" fontSize="10.0" editable="0" text="ROOM"/>
+  <Component type="ScriptLabel" id="FREQ13" x="794.0" y="230.0" width="40.0"
+             height="20.0" fontStyle="Bold" fontSize="10.0" editable="0" text="LP"/>
+  <Component type="ScriptLabel" id="FREQ14" x="727.0" y="230.0" width="40.0"
+             height="20.0" fontStyle="Bold" fontSize="10.0" editable="0" text="HP"/>
+  <Component type="ScriptLabel" id="FREQ15" x="825.0" y="275.0" width="40.0"
+             height="20.0" fontStyle="Bold" fontSize="10.0" editable="0" text="L TIME"/>
+  <Component type="ScriptLabel" id="FREQ16" x="889.0" y="275.0" width="40.0"
+             height="20.0" fontStyle="Bold" fontSize="10.0" editable="0" text="R TIME"/>
+  <Component type="ScriptLabel" id="FREQ17" x="697.0" y="275.0" width="40.0"
+             height="20.0" fontStyle="Bold" fontSize="10.0" editable="0" text="L FB"/>
+  <Component type="ScriptLabel" id="FREQ18" x="762.0" y="275.0" width="40.0"
+             height="20.0" fontStyle="Bold" fontSize="10.0" editable="0" text="R FB"/>
+  <Component type="ScriptLabel" id="FREQ19" x="859.0" y="230.0" width="40.0"
+             height="20.0" fontStyle="Bold" fontSize="10.0" editable="0" text="MIX"/>
+  <Component type="ScriptFloatingTile" id="EQHPtile2" x="76.0" y="249.0" ContentType="FilterDisplay"
+             bgColour="3355443" itemColour="4294967295" itemColour2="2147483647"
+             Data="{&#13;&#10;  &quot;ProcessorId&quot;: &quot;Artifacts&quot;,&#13;&#10;  &quot;Index&quot;: -1&#13;&#10;}"
+             width="100.0" height="20.0"/>
+  <Component type="ScriptButton" id="Button1" x="3.0" y="3.0" filmstripImage="{PROJECT_FOLDER}NNButton3.png"
+             width="67.0" height="34.0" saveInPreset="0" scaleFactor="0.1299999952316284"/>
+  <Component type="ScriptPanel" id="Panel2" x="40.0" y="358.0" width="128.0"
+             height="27.0" bgColour="1325400063" itemColour="2667577344" itemColour2="2667577344"/>
+  <Component type="ScriptComboBox" id="Guitar1cmb" x="40.0" y="358.0" max="30"
+             items="70s Show&#10;90s Alternate&#10;90s Hard&#10;Bass Lead Dual&#10;Bass Lead Mono&#10;Blues Git&#10;Clean Electric&#10;Da Blues&#10;Deep Darkness&#10;Easy Peasy&#10;Electricy&#10;Fret Noise&#10;Hickerbilly&#10;Jack Black&#10;Jazzy Stereo&#10;Lincoln Park&#10;Lonely&#10;Low Key Bass&#10;Marilyn&#10;RnB Lead&#10;Rolling Stoned&#10;Shroom Garden&#10;Simple Electric&#10;Smooth Basics&#10;Thin Tim&#10;Tijuana&#10;Vintage Love&#10;Vintage Trip&#10;Violet Rain&#10;Watchtower"
+             height="27.0" itemColour2="4404019" itemColour="3355443" bgColour="16777215"/>
+  <Component type="ScriptPanel" id="Panel3" x="218.0" y="358.0" width="128.0"
+             height="27.0" bgColour="1325400063" itemColour="2667577344" itemColour2="2667577344"/>
+  <Component type="ScriptComboBox" id="Guitar2cmb" x="218.0" y="358.0" max="30"
+             items="70s Show&#10;90s Alternate&#10;90s Hard&#10;Bass Lead Dual&#10;Bass Lead Mono&#10;Blues Git&#10;Clean Electric&#10;Da Blues&#10;Deep Darkness&#10;Easy Peasy&#10;Electricy&#10;Fret Noise&#10;Hickerbilly&#10;Jack Black&#10;Jazzy Stereo&#10;Lincoln Park&#10;Lonely&#10;Low Key Bass&#10;Marilyn&#10;RnB Lead&#10;Rolling Stoned&#10;Shroom Garden&#10;Simple Electric&#10;Smooth Basics&#10;Thin Tim&#10;Tijuana&#10;Vintage Love&#10;Vintage Trip&#10;Violet Rain&#10;Watchtower"
+             height="27.0" bgColour="16777215" itemColour="3355443" itemColour2="1118481"/>
+  <Component type="ScriptPanel" id="Panel4" x="656.0" y="358.0" width="128.0"
+             height="27.0" bgColour="1325400063" itemColour="2667577344" itemColour2="2667577344"/>
+  <Component type="ScriptComboBox" id="Guitar3cmb" x="656.0" y="358.0" max="30"
+             items="70s Show&#10;90s Alternate&#10;90s Hard&#10;Bass Lead Dual&#10;Bass Lead Mono&#10;Blues Git&#10;Clean Electric&#10;Da Blues&#10;Deep Darkness&#10;Easy Peasy&#10;Electricy&#10;Fret Noise&#10;Hickerbilly&#10;Jack Black&#10;Jazzy Stereo&#10;Lincoln Park&#10;Lonely&#10;Low Key Bass&#10;Marilyn&#10;RnB Lead&#10;Rolling Stoned&#10;Shroom Garden&#10;Simple Electric&#10;Smooth Basics&#10;Thin Tim&#10;Tijuana&#10;Vintage Love&#10;Vintage Trip&#10;Violet Rain&#10;Watchtower"
+             height="27.0" bgColour="16777215" itemColour="3355443" itemColour2="1118481"/>
+  <Component type="ScriptPanel" id="Panel5" x="832.0" y="358.0" width="128.0"
+             height="27.0" bgColour="1325400063" itemColour="2667577344" itemColour2="2667577344"/>
+  <Component type="ScriptComboBox" id="Guitar4cmb" x="832.0" y="358.0" max="30"
+             items="70s Show&#10;90s Alternate&#10;90s Hard&#10;Bass Lead Dual&#10;Bass Lead Mono&#10;Blues Git&#10;Clean Electric&#10;Da Blues&#10;Deep Darkness&#10;Easy Peasy&#10;Electricy&#10;Fret Noise&#10;Hickerbilly&#10;Jack Black&#10;Jazzy Stereo&#10;Lincoln Park&#10;Lonely&#10;Low Key Bass&#10;Marilyn&#10;RnB Lead&#10;Rolling Stoned&#10;Shroom Garden&#10;Simple Electric&#10;Smooth Basics&#10;Thin Tim&#10;Tijuana&#10;Vintage Love&#10;Vintage Trip&#10;Violet Rain&#10;Watchtower"
+             height="27.0" bgColour="16777215" itemColour="3355443" itemColour2="1118481"/>
+  <Component type="ScriptLabel" id="FREQ20" x="67.0" y="230.0" width="40.0"
+             height="20.0" fontStyle="Bold" fontSize="10.0" editable="0" text="F"/>
+  <Component type="ScriptLabel" id="GainEQ3" x="107.0" y="230.0" width="40.0"
+             height="20.0" fontStyle="Bold" fontSize="10.0" editable="0" text="G"/>
+  <Component type="ScriptLabel" id="QEQ3" x="145.0" y="230.0" width="40.0"
+             height="20.0" fontStyle="Bold" fontSize="10.0" editable="0" text="Q"/>
+  <Component type="ScriptImage" id="Image1" x="64.0" y="329.0" fileName="{PROJECT_FOLDER}guitar1.png"
+             width="80.0" height="25.0"/>
+  <Component type="ScriptImage" id="Image2" x="242.0" y="329.0" fileName="{PROJECT_FOLDER}guitar2.png"
+             width="80.0" height="25.0"/>
+  <Component type="ScriptImage" id="Image3" x="680.0" y="329.0" fileName="{PROJECT_FOLDER}guitar3.png"
+             width="80.0" height="25.0"/>
+  <Component type="ScriptImage" id="Image4" x="856.0" y="329.0" fileName="{PROJECT_FOLDER}guitar4.png"
+             width="80.0" height="25.0"/>
+  <Component type="ScriptSlider" id="Guitar1Attackknb1" x="59.0" y="384.0"
+             filmstripImage="{PROJECT_FOLDER}fxknobwht79.png" numStrips="79.0"
+             mode="Frequency" max="20000.0" stepSize="1.0" suffix=" ms" middlePosition="1800.0"
+             width="36.0" height="36.0" scaleFactor="0.4000000059604645" processorId="S1HP"
+             parameterId="Freq" min="20.0" defaultValue="20.0"/>
+  <Component type="ScriptSlider" id="Guitar1Attackknb2" x="114.0" y="384.0"
+             filmstripImage="{PROJECT_FOLDER}fxknobwht79.png" numStrips="79.0"
+             mode="Frequency" max="20000.0" stepSize="1.0" suffix=" ms" middlePosition="1800.0"
+             width="36.0" height="36.0" scaleFactor="0.4000000059604645" processorId="S1LP"
+             parameterId="Freq" min="20.0" defaultValue="20000.0"/>
+  <Component type="ScriptSlider" id="Guitar1Attackknb3" x="237.0" y="384.0"
+             filmstripImage="{PROJECT_FOLDER}fxknobwht79.png" numStrips="79.0"
+             mode="Frequency" max="20000.0" stepSize="1.0" suffix=" ms" middlePosition="1800.0"
+             width="36.0" height="36.0" scaleFactor="0.4000000059604645" processorId="S2HP"
+             parameterId="Freq" min="20.0" defaultValue="20.0"/>
+  <Component type="ScriptSlider" id="Guitar1Attackknb4" x="292.0" y="384.0"
+             filmstripImage="{PROJECT_FOLDER}fxknobwht79.png" numStrips="79.0"
+             mode="Frequency" max="20000.0" stepSize="1.0" suffix=" ms" middlePosition="1800.0"
+             width="36.0" height="36.0" scaleFactor="0.4000000059604645" processorId="S2LP"
+             parameterId="Freq" min="20.0" defaultValue="20000.0"/>
+  <Component type="ScriptSlider" id="Guitar1Attackknb5" x="221.0" y="420.0"
+             filmstripImage="{PROJECT_FOLDER}fxknobwht79.png" numStrips="79.0"
+             mode="Time" max="20000.0" stepSize="1.0" suffix=" ms" middlePosition="1000.0"
+             width="36.0" height="36.0" scaleFactor="0.4000000059604645" processorId="DefaultEnvelope2"
+             parameterId="Attack"/>
+  <Component type="ScriptSlider" id="Guitar1Gainknb1" x="259.0" y="414.0"
+             middlePosition="-18.0" stepSize="0.1000000014901161" min="-100.0"
+             max="20.0" suffix=" dB" filmstripImage="{PROJECT_FOLDER}olddialinvert31.png"
+             numStrips="31.0" scaleFactor="0.5" width="47.0" height="47.0"
+             processorId="G2 GAIN" parameterId="Gain" mode="Decibel" defaultValue="-10.0"/>
+  <Component type="ScriptSlider" id="Guitar1Releaseknb1" x="307.0" y="420.0"
+             filmstripImage="{PROJECT_FOLDER}fxknobwht79.png" numStrips="79.0"
+             mode="Time" max="20000.0" stepSize="1.0" suffix=" ms" middlePosition="1000.0"
+             width="36.0" height="36.0" scaleFactor="0.4000000059604645" processorId="DefaultEnvelope2"
+             parameterId="Release" defaultValue="5000.0"/>
+  <Component type="ScriptLabel" id="Gain1" x="242.0" y="456.0" width="80.0"
+             height="20.0" text="GAIN" fontStyle="Bold" fontSize="10.0" editable="0"/>
+  <Component type="ScriptSlider" id="Guitar1Pansld1" x="232.0" y="469.0" filmstripImage="{PROJECT_FOLDER}panslider101-3.png"
+             numStrips="101.0" height="28.0" processorId="G2 GAIN" parameterId="Balance"
+             mode="Pan" min="-100.0" max="100.0" suffix="L" middlePosition="0.0"
+             width="100.0" dragDirection="Horizontal" stepSize="0.1000000014901161"
+             scaleFactor="0.800000011920929"/>
+  <Component type="ScriptLabel" id="Pan1" x="243.0" y="488.0" width="80.0"
+             height="20.0" text="PAN" fontStyle="Bold" fontSize="10.0" editable="0"/>
+  <Component type="ScriptSlider" id="Guitar1Attackknb6" x="676.0" y="384.0"
+             filmstripImage="{PROJECT_FOLDER}fxknobwht79.png" numStrips="79.0"
+             mode="Frequency" max="20000.0" stepSize="1.0" suffix=" ms" middlePosition="1800.0"
+             width="36.0" height="36.0" scaleFactor="0.4000000059604645" processorId="S3HP"
+             parameterId="Freq" min="20.0" defaultValue="20.0"/>
+  <Component type="ScriptSlider" id="Guitar1Attackknb7" x="731.0" y="384.0"
+             filmstripImage="{PROJECT_FOLDER}fxknobwht79.png" numStrips="79.0"
+             mode="Frequency" max="20000.0" stepSize="1.0" suffix=" ms" middlePosition="1800.0"
+             width="36.0" height="36.0" scaleFactor="0.4000000059604645" processorId="S3LP"
+             parameterId="Freq" min="20.0" defaultValue="20000.0"/>
+  <Component type="ScriptSlider" id="Guitar1Gainknb2" x="698.0" y="414.0"
+             middlePosition="-18.0" stepSize="0.1000000014901161" min="-100.0"
+             max="20.0" suffix=" dB" filmstripImage="{PROJECT_FOLDER}olddialinvert31.png"
+             numStrips="31.0" scaleFactor="0.5" width="47.0" height="47.0"
+             processorId="G3 GAIN" parameterId="Gain" mode="Decibel" defaultValue="-10.0"/>
+  <Component type="ScriptSlider" id="Guitar1Attackknb8" x="660.0" y="420.0"
+             filmstripImage="{PROJECT_FOLDER}fxknobwht79.png" numStrips="79.0"
+             mode="Time" max="20000.0" stepSize="1.0" suffix=" ms" middlePosition="1000.0"
+             width="36.0" height="36.0" scaleFactor="0.4000000059604645" processorId="DefaultEnvelope3"
+             parameterId="Attack"/>
+  <Component type="ScriptLabel" id="Gain2" x="681.0" y="456.0" width="80.0"
+             height="20.0" text="GAIN" fontStyle="Bold" fontSize="10.0" editable="0"/>
+  <Component type="ScriptSlider" id="Guitar1Pansld2" x="671.0" y="469.0" filmstripImage="{PROJECT_FOLDER}panslider101-3.png"
+             numStrips="101.0" height="28.0" processorId="G3 GAIN" parameterId="Balance"
+             mode="Pan" min="-100.0" max="100.0" suffix="L" middlePosition="0.0"
+             width="100.0" dragDirection="Horizontal" stepSize="0.1000000014901161"
+             scaleFactor="0.800000011920929"/>
+  <Component type="ScriptLabel" id="Pan2" x="682.0" y="488.0" width="80.0"
+             height="20.0" text="PAN" fontStyle="Bold" fontSize="10.0" editable="0"/>
+  <Component type="ScriptSlider" id="Guitar1Attackknb9" x="852.0" y="384.0"
+             filmstripImage="{PROJECT_FOLDER}fxknobwht79.png" numStrips="79.0"
+             mode="Frequency" max="20000.0" stepSize="1.0" suffix=" ms" middlePosition="1800.0"
+             width="36.0" height="36.0" scaleFactor="0.4000000059604645" processorId="S4HP"
+             parameterId="Freq" min="20.0" defaultValue="20.0"/>
+  <Component type="ScriptSlider" id="Guitar1Attackknb10" x="907.0" y="384.0"
+             filmstripImage="{PROJECT_FOLDER}fxknobwht79.png" numStrips="79.0"
+             mode="Frequency" max="20000.0" stepSize="1.0" suffix=" ms" middlePosition="1800.0"
+             width="36.0" height="36.0" scaleFactor="0.4000000059604645" processorId="S4LP"
+             parameterId="Freq" min="20.0" defaultValue="20000.0"/>
+  <Component type="ScriptSlider" id="Guitar1Gainknb3" x="874.0" y="414.0"
+             middlePosition="-18.0" stepSize="0.1000000014901161" min="-100.0"
+             max="20.0" suffix=" dB" filmstripImage="{PROJECT_FOLDER}olddialinvert31.png"
+             numStrips="31.0" scaleFactor="0.5" width="47.0" height="47.0"
+             processorId="G4 GAIN" parameterId="Gain" mode="Decibel" defaultValue="-10.0"/>
+  <Component type="ScriptSlider" id="Guitar1Attackknb11" x="836.0" y="420.0"
+             filmstripImage="{PROJECT_FOLDER}fxknobwht79.png" numStrips="79.0"
+             mode="Time" max="20000.0" stepSize="1.0" suffix=" ms" middlePosition="1000.0"
+             width="36.0" height="36.0" scaleFactor="0.4000000059604645" processorId="DefaultEnvelope4"
+             parameterId="Attack"/>
+  <Component type="ScriptLabel" id="Gain3" x="857.0" y="456.0" width="80.0"
+             height="20.0" text="GAIN" fontStyle="Bold" fontSize="10.0" editable="0"/>
+  <Component type="ScriptSlider" id="Guitar1Pansld3" x="847.0" y="469.0" filmstripImage="{PROJECT_FOLDER}panslider101-3.png"
+             numStrips="101.0" height="28.0" processorId="G4 GAIN" parameterId="Balance"
+             mode="Pan" min="-100.0" max="100.0" suffix="L" middlePosition="0.0"
+             width="100.0" dragDirection="Horizontal" stepSize="0.1000000014901161"
+             scaleFactor="0.800000011920929"/>
+  <Component type="ScriptLabel" id="Pan3" x="858.0" y="488.0" width="80.0"
+             height="20.0" text="PAN" fontStyle="Bold" fontSize="10.0" editable="0"/>
+  <Component type="ScriptSlider" id="Guitar1Releaseknb2" x="745.0" y="420.0"
+             filmstripImage="{PROJECT_FOLDER}fxknobwht79.png" numStrips="79.0"
+             mode="Time" max="20000.0" stepSize="1.0" suffix=" ms" middlePosition="1000.0"
+             width="36.0" height="36.0" scaleFactor="0.4000000059604645" processorId="DefaultEnvelope3"
+             parameterId="Release" defaultValue="5000.0"/>
+  <Component type="ScriptSlider" id="Guitar1Releaseknb3" x="921.0" y="420.0"
+             filmstripImage="{PROJECT_FOLDER}fxknobwht79.png" numStrips="79.0"
+             mode="Time" max="20000.0" stepSize="1.0" suffix=" ms" middlePosition="1000.0"
+             width="36.0" height="36.0" scaleFactor="0.4000000059604645" processorId="DefaultEnvelope4"
+             parameterId="Release" defaultValue="5000.0"/>
+  <Component type="ScriptLabel" id="Attack" x="45.0" y="448.0" text="A" fontSize="10.0"
+             fontStyle="Bold" width="31.0" height="15.0"/>
+  <Component type="ScriptLabel" id="Attack1" x="132.0" y="448.0" text="R"
+             fontSize="10.0" fontStyle="Bold" width="31.0" height="15.0"/>
+  <Component type="ScriptLabel" id="Attack2" x="62.0" y="412.0" text="HP"
+             fontSize="10.0" fontStyle="Bold" width="31.0" height="15.0"/>
+  <Component type="ScriptLabel" id="Attack3" x="117.0" y="412.0" text="LP"
+             fontSize="10.0" fontStyle="Bold" width="31.0" height="15.0"/>
+  <Component type="ScriptLabel" id="Attack4" x="295.0" y="412.0" text="LP"
+             fontSize="10.0" fontStyle="Bold" width="31.0" height="15.0"/>
+  <Component type="ScriptLabel" id="Attack5" x="240.0" y="412.0" text="HP"
+             fontSize="10.0" fontStyle="Bold" width="31.0" height="15.0"/>
+  <Component type="ScriptLabel" id="Attack6" x="223.0" y="448.0" text="A"
+             fontSize="10.0" fontStyle="Bold" width="31.0" height="15.0"/>
+  <Component type="ScriptLabel" id="Attack7" x="310.0" y="448.0" text="R"
+             fontSize="10.0" fontStyle="Bold" width="31.0" height="15.0"/>
+  <Component type="ScriptLabel" id="Attack8" x="734.0" y="412.0" text="LP"
+             fontSize="10.0" fontStyle="Bold" width="31.0" height="15.0"/>
+  <Component type="ScriptLabel" id="Attack9" x="679.0" y="412.0" text="HP"
+             fontSize="10.0" fontStyle="Bold" width="31.0" height="15.0"/>
+  <Component type="ScriptLabel" id="Attack10" x="662.0" y="448.0" text="A"
+             fontSize="10.0" fontStyle="Bold" width="31.0" height="15.0"/>
+  <Component type="ScriptLabel" id="Attack11" x="749.0" y="448.0" text="R"
+             fontSize="10.0" fontStyle="Bold" width="31.0" height="15.0"/>
+  <Component type="ScriptLabel" id="Attack12" x="854.0" y="412.0" text="HP"
+             fontSize="10.0" fontStyle="Bold" width="31.0" height="15.0"/>
+  <Component type="ScriptLabel" id="Attack13" x="909.0" y="412.0" text="LP"
+             fontSize="10.0" fontStyle="Bold" width="31.0" height="15.0"/>
+  <Component type="ScriptLabel" id="Attack14" x="837.0" y="448.0" text="A"
+             fontSize="10.0" fontStyle="Bold" width="31.0" height="15.0"/>
+  <Component type="ScriptLabel" id="Attack15" x="924.0" y="448.0" text="R"
+             fontSize="10.0" fontStyle="Bold" width="31.0" height="15.0"/>
+  <Component type="ScriptButton" id="hideShow" x="864.0" y="2.0" filmstripImage="{PROJECT_FOLDER}liteswitch.png"
+             scaleFactor="0.5" width="33.0" height="33.0"/>
+  <Component type="ScriptPanel" id="panel1" x="640" y="37" width="350.0" height="470.0"
+             itemColour="4207002049" itemColour2="4195817239" visible="0">
+    <Component type="ScriptFloatingTile" id="FloatingTile1" x="0.0" y="0.0"
+               ContentType="CustomSettings" bgColour="4278190080" itemColour="0"
+               itemColour2="0" Data="{&#13;&#10;  &quot;Driver&quot;: true,&#13;&#10;  &quot;Device&quot;: true,&#13;&#10;  &quot;Output&quot;: true,&#13;&#10;  &quot;BufferSize&quot;: true,&#13;&#10;  &quot;SampleRate&quot;: true,&#13;&#10;  &quot;GlobalBPM&quot;: true,&#13;&#10;  &quot;StreamingMode&quot;: true,&#13;&#10;  &quot;ScaleFactor&quot;: true,&#13;&#10;  &quot;VoiceAmountMultiplier&quot;: true,&#13;&#10;  &quot;ClearMidiCC&quot;: true,&#13;&#10;  &quot;SampleLocation&quot;: true,&#13;&#10;  &quot;DebugMode&quot;: true,&#13;&#10;  &quot;ScaleFactorList&quot;: [&#13;&#10;    0.5,&#13;&#10;    0.75,&#13;&#10;    1.0,&#13;&#10;    1.25,&#13;&#10;    1.5,&#13;&#10;    2.0&#13;&#10;  ]&#13;&#10;}"
+               width="350.0" height="470.0" parentComponent="panel1"/>
+  </Component>
+  <Component type="ScriptLabel" id="SETTINGS" x="871.0" y="4.0" fontSize="16.0"
+             editable="0"/>
+</ContentProperties>
